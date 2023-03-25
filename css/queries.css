@@ -1,0 +1,151 @@
+/* SMALL LAPTOPS */
+@media (max-width: 84em) {
+}
+
+/* BELLOW 1200PX (landscape tablets) */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .appelez-nous {
+    height: 35rem;
+    width: 40rem;
+    background-color: #353535;
+    color: #e6e6e6;
+    margin: 5rem auto 5rem auto;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0px 0px 15px 0px #000000;
+  }
+
+  .appelez-nous-title {
+    font-size: 2.5rem;
+    margin: 3rem auto 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .appelez-nous-text {
+    font-size: 1.7rem;
+    padding: 2rem;
+    color: #e6e6e6;
+    margin: 1rem auto 0 2rem;
+  }
+
+  .cta-btn {
+    position: relative;
+    margin: 1rem auto 0 auto;
+  }
+
+  .gestion-text {
+    width: 50rem;
+    padding-left: 5rem;
+  }
+}
+
+/* BELOW 1073px (tablets) */
+@media (max-width: 67em) {
+  html {
+    font-size: 50%;
+  }
+  .appelez-nous {
+    height: 35rem;
+    width: 40rem;
+    background-color: #353535;
+    color: #e6e6e6;
+    margin: 5rem auto 5rem auto;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0px 0px 15px 0px #000000;
+  }
+
+  .header {
+    height: 85vh;
+    width: max-content;
+    position: relative;
+    background: #007f46;
+    background: linear-gradient(180deg, #007f46 50%, #33996b 100%);
+    /* background-image: linear-gradient( rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6) ), url(/web/e3l/img/hero.jpg); */
+    background-size: cover;
+    color: #e6e6e6;
+}
+
+  .appelez-nous-title {
+    font-size: 2.5rem;
+    margin: 3rem auto 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .appelez-nous-text {
+    font-size: 1.7rem;
+    padding: 2rem;
+    color: #e6e6e6;
+    margin: 1rem auto 0 2rem;
+  }
+
+  .cta-btn {
+    position: relative;
+    margin: 1rem auto 0 auto;
+  }
+
+  .gestion-text {
+    width: 50rem;
+    padding-left: 5rem;
+  }
+
+  .section-faune {
+    background-color: #007f46;
+    padding: 10rem;
+    color: #e6e6e6;
+    width: max-content;
+}
+
+@media (max-width: 55em) {
+}
+
+/* BELOW 412px (PHONES) */
+@media (max-width: 34em) {
+  .header {
+    height: 85vh;
+    width: max-content;
+    position: relative;
+    background: #007f46;
+    background: linear-gradient(180deg, #007f46 50%, #33996b 100%);
+    /* background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.6)
+      ),
+      url(/web/e3l/img/hero.jpg); */
+    background-size: cover;
+    color: #e6e6e6;
+  }
+
+  .accordion {
+    max-width: 30rem;
+    width: 30rem;
+    margin: 0 auto auto 5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+
+  .regions {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    column-gap: 10rem;
+    margin: 7rem 3rem 3rem 3rem;
+  }
+
+  .section-faune {
+    background-color: #007f46;
+    padding: 10rem;
+    color: #e6e6e6;
+    width: max-content;
+  }
+}

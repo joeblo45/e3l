@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon", href="./logo/favicon.png"", type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="script/script.js"></script>
+
+    <!-- <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  /> -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+      emailjs.init("qWWQbOFbFy3bXzJSR");
+      })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/queries.css"/> -->
+    <link rel="shortcut icon" href="img/logos/favicon.png" type="image/x-icon">
+</head>
+   
+    
+    <title>Extermination 3-Lacs</title>
+  </head>
+
+
+  <body>
+    <header class="header">
+      <div class="header-container">
+          <h1 class="header-title">bienvenue chez</h1>
+          <img class="header-img" src="img/logos/Logo-Header.png">
+
+          <div class="header-btns">
+            <a href="#gestion-parasitaire" class="btn">NOS SERVICES</a>
+            <a href="#regions" class="btn-green">NOS REGIONS</a>
+          </div>
+        
+          <!-- CTA-FORM -->
+          <div class="cta-form-box box-header">
+            <div class="form-group">
+              <label for="insect">J'ai un problème avec:</label>
+              <select id="insect" class="form-control" required>
+                <option value="fourmis">Fourmis</option>
+                <option value="araignee">Araignée</option>
+                <option value="guepe">Guêpe</option>
+                <option value="abeilles">Abeilles</option>
+                <option value="rongeurs">Rongeurs</option>
+                <option value="blattes">Blattes/Coquerelles</option>
+                <option value="vers-blanc">Vers Blanc</option>
+                <option value="perce-oreilles">Perce-Oreilles</option>
+                <option value="dermestre-du-lard">Dermestre-du-lard</option>
+                <option value="lepisme-argente">Lepisme Argenté</option>
+                <option value="acariens">Acariens</option>
+                <option value="punaises">Punaises de lit</option>
+                <option value="mouches">Mouches</option>
+                <option value="coléoptètres">Coléoptères</option>
+                <option value="others">Autre</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Téléphone:</label>
+              <input
+                id="phone"
+                type="tel"
+                placeholder="(514) 966-1018"
+                class="form-control"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="name">Nom Complet:</label>
+              <input
+                id="name"
+                type="text"
+                placeholder="Marc Tremblay"
+                class="form-control"
+                required
+              />
+            </div>
+
+            <button class="btn cta-btn-header" onclick="sendMail()">Rappelez-moi</button>
+        </div>
+        </div>
+      </div>
+    </header>
+  <main>
+
+    
+    <section class="section-gestion-parasitaire" id="gestion-parasitaire">
+      <div class="container-gestion">
+      <h1 class="section-title">Nos Services</h1>
+      <div class="separator">&nbsp;</div>
+
+      <div class="gestion-parasitaire">
+        <div class="gestion-text">
+          <h2 class="gestion-title">Gestion Parasitaire</h2>
+          <p class="description-2">Nos plans de luttes antiparasitaires intégrées avec usage minimal ou nul de pesticides peut régler le problème. Chez Extermination 3-Lacs, nous offrons différents programmes de protections intérieures et extérieures pour votre tranquillité d’esprit.</p>
+          <br />
+          <p class="description-2">Nos experts en gestion parasitaire écoresponsable s’engagent à répondre rapidement à vos besoins afin d’identifier l’étendue du problème et déterminer le plan le plus efficace pour vous débarrasser de ces parasites.</p>
+        </div>
+
+
+        <div class="gestion-img-box">
+          <img class="gestion-img" src="./img/gestion-parasitaire.jpg" alt="Gestion Parasitaire"> 
+        </div>
+
+        <div class="gestion-icons">
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">Fourmis</p>
+            <p class="features-text"></p>
+          </div>
+  
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">Araignee</p>
+            <p class="features-text"></p>
+          </div>
+  
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">Guêpes</p>
+            <p class="features-text"></p>
+          </div>
+  
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">Abeilles</p>
+            <p class="features-text"></p>
+          </div>
+
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">Coquerelles</p>
+            <p class="features-text"></p>
+          </div>
+  
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">Vers Blanc</p>
+            <p class="features-text"></p>
+          </div>
+  
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">Perce-Oreilles</p>
+            <p class="features-text"></p>
+          </div>
+  
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">Punaises de Lit</p>
+            <p class="features-text"></p>
+          </div>
+  
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">Dermestre du Lard</p>
+            <p class="features-text"></p>
+          </div>
+  
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">Lepisme Argente</p>
+            <p class="features-text"></p>
+          </div>
+        
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">Acariens</p>
+            <p class="features-text"></p>
+          </div>
+
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">Mouches</p>
+            <p class="features-text"></p>
+          </div>
+
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">Coléoptères</p>
+            <p class="features-text"></p>
+          </div>
+
+          <div class="icons-box">
+            <ion-icon class="icon-gestion" name="checkmark-outline"></ion-icon>
+            <p class="gestion-icon-title">+ autres</p>
+            <p class="features-text"></p>
+          </div>
+
+        </div>
+      </div>
+  
+    <div class="rongeurs">
+      <div class="rongeurs-box">
+      <div class="rongeurs-img">
+        <div class="rongeurs-img-block">
+          <div class="rongeurs-img"><img src="img/Animaux/rongeurs 600x450.jpg" alt="rongeurs"></div>
+          <div class="rongeurs-title"><p>RONGEURS</p></div>
+        </div>
+      </div>
+      <div class="rongeurs-text">
+        <p>Évidemment, une colonie de rongeurs sur votre propriété engendre de graves problèmes. Ils grugent tout sur leur passage : bois, isolant, fils électriques, etc. Par ailleurs, leurs excréments endommagent le système de ventilation. Les rongeurs sont donc particulièrement nuisibles, leurs activités pouvant entraîner des risques d’incendie, de la moisissure et des problèmes d’humidité, nuire à la structure du bâtiment, en plus de causer d’importants problèmes de santé.</p>
+        <br />
+        <p>Les solutions proposées par les experts d’Extermination 3-Lacs vous débarrasseront de ces rongeurs et préviendront leur retour, en utilisant les bons produits adaptés et sécuritaires pour votre entourage.</p>
+      </div> 
+    </div> 
+      
+      <div class="rongeurs-icons">
+        <div class="rongeurs-box-icon">
+          <svg class="rongeurs-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+          </svg>                  
+          <p class="rongeurs-label">RATS</p>
+        </div>
+        <div class="rongeurs-box-icon">
+          <svg class="rongeurs-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+          </svg>                  
+          <p class="rongeurs-label">SOURIS</p>
+        </div>
+        <div class="rongeurs-box-icon">
+          <svg class="rongeurs-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+          </svg>                  
+          <p class="rongeurs-label">MULOTS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+
+   
+    <section class="section-faune">
+      <div class="container-faune">
+      <div class="controle-de-la-faune">
+          <div class="gestion-text">
+            <h2 class="faune-label">Controle de la Faune</h2>
+            <p class="description-3">Les experts d’Extermination 3-Lacs sont en mesure de contrôler la présence de ces animaux sur votre propriété en toute sécurité, par leur capture et leur remise en liberté à plusieurs kilomètres de chez vous, dans un milieu plus naturel. Par la suite, ils peuvent prévenir une nouvelle infestation avec un calfeutrage, l’installation de grillages ou d’autres dispositifs. Vous n’aurez donc plus à les craindre.</p>
+            
+            <p class="description-3">Les espèces que l’on rencontre le plus fréquemment sont les écureuils, les marmottes, les moufettes et les ratons laveurs, mais l’on retrouve de plus en plus de problèmes avec les nids d’oiseaux et chauves-souris.</p>
+      
+          </div>
+
+          <div class="faune-img-main">
+            <img src="./img/faune.webp" alt="Controle-de-la-faune"> 
+          </div>
+</div>
+            <div class="faunes-img">
+
+              <div class="faune-img">
+                <img src="img/Animaux/raton-laveur.jpg" alt="raton-laveur">
+                <div class="faunes-title"><p>RATON-LAVEUR</p></div>
+              </div>
+
+              <div class="faune-img">
+                <img src="img/Animaux/moufette.jpeg" alt="raton-laveur">
+                <div class="faunes-title"><p>MOUFETTES</p></div>
+              </div>
+
+              <div class="faune-img">
+                <img src="img/Animaux/marmotte.png" alt="raton-laveur">
+                <div class="faunes-title"><p>MARMOTTES</p></div>
+              </div>
+
+              <div class="faune-img">
+                <img src="img/Animaux/ecureuil.jpeg" alt="raton-laveur">
+                <div class="faunes-title"><p>ECUREUILS</p></div>
+              </div>
+            </div>
+          </div>
+    </section>
+    
+    <section class="section-features">
+  <div class="container-features">
+   <div class="features-box">
+
+    <div class="features-icon">
+      <div class="features-icons">
+        <div class="features-icon-box">
+          <ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>
+        </div>
+        <div class="features-text">
+         <span>Soumission Gratuite</span>
+        </div>
+      </div>
+      <div class="features-icons">
+        <div class="features-icon">
+          <ion-icon class="icon" name="leaf-outline"></ion-icon>
+        </div>
+        <div class="features-text">
+          <span>Produits Écologiques</span>
+        </div>
+      </div>
+
+      <div class="features-icons">
+        <div class="features-icon-box">
+          <ion-icon class="icon" name="shield-checkmark-outline"></ion-icon>
+        </div>
+        <div class="features-text">
+          <span>Interventions Sécuritaires</span>
+        </div>
+      </div>
+
+      <div class="features-icons">
+        <div class="features-icon-box">
+          <ion-icon class="icon" name="refresh-outline"></ion-icon>
+        </div>
+        <div class="features-text">
+          <span>Contrats de service annuel</span>
+        </div>
+       </ul> 
+    </div>
+  </div>
+  
+
+    <div class="features-img-block">
+      <img class="features-img" src="img/hero.jpg" alt="hero">
+    </div>
+   </div>
+   <div class="services-icons">
+    <div class="services-box">
+     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="box-icon">
+       <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+     </svg>
+     
+     <div class="box-separator"> &nbsp;</div>
+     <p class="box-title">Résidentiel</p>
+   </div>  
+
+   <div class="services-box">
+     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="box-icon">
+       <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016a3.001 3.001 0 003.75.614m-16.5 0a3.004 3.004 0 01-.621-4.72L4.318 3.44A1.5 1.5 0 015.378 3h13.243a1.5 1.5 0 011.06.44l1.19 1.189a3 3 0 01-.621 4.72m-13.5 8.65h3.75a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H6.75a.75.75 0 00-.75.75v3.75c0 .415.336.75.75.75z" />
+     </svg>              
+     <div class="box-separator"> &nbsp;</div>
+     <p class="box-title">Commercial</p>
+   </div>
+
+   <div class="services-box">
+     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="box-icon">
+       <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819" />
+     </svg>
+     
+     <div class="box-separator"> &nbsp;</div>
+     <p class="box-title">Industriel</p>
+   </div>
+    </section>
+    
+    <section class="section-regions" id="regions">
+      <div class="container-regions">
+      <h1 class="section-title-2">Nos  Regions</h1>
+      <div class="separator">&nbsp;</div>
+        <div class="regions">
+         
+        <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <h2>Laurentides</h2>
+                <button class="accordion-button" aria-expanded="false" aria-controls="section1Content">
+                  <span class="icon">&#x56;</span>
+                </button>
+              </div>
+              <div class="accordion-content accordion-content--expanded" id="section1Content">
+                <ul>
+                  <li>Brownsburg-Chatham</li>
+                  <li>Grenville</li>
+                  <li>Grenville-sur-la-Rouge (Calumet)</li>
+                  <li>Lachute</li>
+                  <li>Harrington</li>
+                  <li>Pine Hill</li>
+                  <li>Saint-André-d’Argenteuil</li>
+                </ul>
+              </div>
+
+            </div>
+            
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <h2>Vaudreuil-Soulange</h2>
+                <button class="accordion-button" aria-expanded="false" aria-controls="section2Content">
+                  <span class="icon">&#x56;</span>
+                </button>
+              </div>
+              <div class="accordion-content" id="section2Content">
+                <ul>
+                  <li>Coteau-du-Lac</li>
+                  <li>Hudson</li>
+                  <li>l&#8217;Île-Cadieux</li>
+                  <li>l&#8217;Île-Perrot</li>
+                  <li>Les Cèdres</li>
+                  <li>Les Coteaux</li>
+                  <li>Notre-Dame-de-l&#8217;Île-Perrot</li>
+                  <li>Pincourt</li>
+                  <li>Pointe-des-Cascades</li>
+                  <li>Pointe-Fortune</li>
+                  <li>Rigaud</li>
+                  <li>Rivière-Beaudette</li>
+                  <li>Salaberry-de-Valleyfield</li>
+                  <li>Saint-Clet</li>
+                  <li>Saint-Lazare</li>
+                  <li>Saint-Polycarpe</li>
+                  <li>Saint-Télésphore</li>
+                  <li>Saint-Zotique</li>
+                  <li>Sainte-Justine-de-Newton</li>
+                  <li>Terrasse-Vaudreuil</li>
+                  <li>Très-Saint-Rédempteur</li>
+                  <li>Vaudreuil-Dorion</li>
+                  </ul>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <h2>West-Island</h2>
+                <button class="accordion-button" aria-expanded="false" aria-controls="section3Content">
+                  <span class="icon">&#x56;</span>
+                </button>
+              </div>
+              <div class="accordion-content" id="section3Content">
+                <ul>
+                  <li>Beaconsfield</li>
+                  <li>Kirkland</li>
+                  <li>l’Île-Bizard</li>
+                  <li>Pierrefonds – Roxboro</li>
+                  <li>Senneville</li>
+                  <li>Sainte-Anne-de-Bellevue</li>
+                  </ul>
+              </div>
+            </div>
+          </div>  
+          <!-- <iframe frameborder=0 style='width:75rem;height:500px' src='//www.zeemaps.com/pub?group=4640316&add=1&x=-74.174576&y=45.487872&z=8'> </iframe> -->
+          <div class="regions-img-block">
+          <img src="img/territories.png" alt="regions-img" alt="regions">
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+    
+    <section class="section-testimonials">
+      <div class="testimonials-container">
+      <h1 class="section-title-2">Témoignages</h1>
+      <div class="separator">&nbsp;</div>
+      
+        <!-- <div class="row"> -->
+          <div class="col-md-8 col-center m-auto">
+            
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Carousel -->
+              <div class="carousel-inner">
+                <div class="item carousel-item active">
+                  <blockquote class="testimonial-quote">
+                  <div class="img-box">
+                    <ion-icon class="person-icon" name="person-circle"></ion-icon>
+                  </div>
+                  <p class="overview"><b>Nathalie Delisle</b></p>
+                  <p class="testimonial">" Nous avons eu un excellent service; rapide et efficace. Richard a répondu à toutes mes questions. "</p>
+                  <br />
+                  <p class="testimonial-service"><b>Service: </b>Contrôle de la Faune (Marmottes)</p>
+                  <div class="box-stars">
+                    <ion-icon class="stars" name="star"></ion-icon>
+                    <ion-icon class="stars" name="star"></ion-icon>
+                    <ion-icon class="stars" name="star"></ion-icon>
+                    <ion-icon class="stars" name="star"></ion-icon>
+                    <ion-icon class="stars" name="star"></ion-icon>
+                  </div>
+                </div>
+              </blockquote>
+
+                <div class="item carousel-item">
+                  <blockquote class="testimonial-quote">
+                  <div class="img-box">
+                    <ion-icon class="person-icon" name="person-circle"></ion-icon>
+                  </div>
+                  <p class="overview"><b>Benjamin Dicaire</b></p>
+                  <p class="testimonial">" Professionalism, Punctuality & Quality. Everything went good; I recommend. "</p>
+                  <br />
+                  <p class="testimonial-service"><b>Service: </b>Home inspection, Bug & insect extermination</p>
+                  <div class="box-stars">
+                    <ion-icon class="stars" name="star"></ion-icon>
+                    <ion-icon class="stars" name="star"></ion-icon>
+                    <ion-icon class="stars" name="star"></ion-icon>
+                    <ion-icon class="stars" name="star"></ion-icon>
+                    <ion-icon class="stars" name="star"></ion-icon>
+                  </div>
+                </div>
+              </blockquote>
+
+                <div class="item carousel-item">
+                  <blockquote class="testimonial-quote">
+                  <div class="img-box">
+                    <ion-icon class="person-icon" name="person-circle"></ion-icon>
+                  </div>
+                  <p class="overview"><b>Mikael Abergel</b></p>
+                  <p class="testimonial">" Professionalism, Punctuality, Quality, Responsiveness, Value. Greatest pest-control service in the region. "</p>
+                  <br />
+                  <p class="testimonial-service"><b>Service: </b>General pest inspection</p>
+                
+                  <div class="box-stars">
+                    <ion-icon class="stars" name="star"></ion-icon>
+                    <ion-icon class="stars" name="star"></ion-icon>
+                    <ion-icon class="stars" name="star"></ion-icon>
+                    <ion-icon class="stars" name="star"></ion-icon>
+                    <ion-icon class="stars" name="star"></ion-icon>
+                  </div>
+                </div>
+              </blockquote>
+              </div>
+              <!-- Carousel Controls -->
+              <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <i class="fa fa-angle-left"></i>
+              </a>
+              <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section-cta-footer">
+<div class="container-footer">
+  <div class="appelez-nous">
+    <h2 class="appelez-nous-title">Combien ça va me couter?</h2>
+    <p class="appelez-nous-text">Parce que chaque cas est particulier, il est préférable de communiquer avec nous pour une soumission adapté à vos besoins, soit par téléphone ou par internet directement.</p>
+    <a class="cta-btn" href="tel:5149661018"><button class="btn">Appelez-nous</button></a>
+  <p class="phone-number">(514) 966-1018</p>
+  </div>
+
+     <!-- <form class="cta-form form-footer" action="#">
+      <div>
+        <label for="select-where">J'ai un problème avec:</label>
+        <select id="select-where" required>
+          <option value="fourmis">Fourmis</option>
+          <option value="araignee">Araignée</option>
+          <option value="guepe">Guêpe</option>
+          <option value="abeilles">Abeilles</option>
+          <option value="rongeurs">Rongeurs</option>
+          <option value="blattes">Blattes/Coquerelles</option>
+          <option value="vers-blanc">Vers Blanc</option>
+          <option value="perce-oreilles">Perce-Oreilles</option>
+          <option value="dermestre-du-lard">Dermestre-du-lard</option>
+          <option value="lepisme-argente">Lepisme Argenté</option>
+          <option value="acariens">Acariens</option>
+          <option value="punaises">Punaises de lit</option>
+          <option value="mouches">Mouches</option>
+          <option value="coléoptètres">Coléoptères</option>
+          <option value="others">Autre</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="phone">Téléphone:</label>
+        <input
+          id="phone"
+          type="tel"
+          placeholder="(514) 966-1018"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="full-name">Nom Complet:</label>
+        <input
+          id="full-name"
+          type="text"
+          placeholder="Marc Tremblay"
+          required
+        />
+      </div>
+
+      <button class="btn">Rappelez-moi</button>
+    </form> -->
+    <div class="cta-form-box box-footer">
+    <div class="form-group">
+      <label for="insect">J'ai un problème avec:</label>
+      <select id="insect" class="form-control" required>
+        <option value="fourmis">Fourmis</option>
+        <option value="araignee">Araignée</option>
+        <option value="guepe">Guêpe</option>
+        <option value="abeilles">Abeilles</option>
+        <option value="rongeurs">Rongeurs</option>
+        <option value="blattes">Blattes/Coquerelles</option>
+        <option value="vers-blanc">Vers Blanc</option>
+        <option value="perce-oreilles">Perce-Oreilles</option>
+        <option value="dermestre-du-lard">Dermestre-du-lard</option>
+        <option value="lepisme-argente">Lepisme Argenté</option>
+        <option value="acariens">Acariens</option>
+        <option value="punaises">Punaises de lit</option>
+        <option value="mouches">Mouches</option>
+        <option value="coléoptètres">Coléoptères</option>
+        <option value="others">Autre</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Téléphone:</label>
+      <input
+        id="phone"
+        type="tel"
+        placeholder="(514) 966-1018"
+        class="form-control"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="name">Nom Complet:</label>
+      <input
+        id="name"
+        type="text"
+        placeholder="Marc Tremblay"
+        class="form-control"
+        required
+      />
+    </div>
+
+    <button class="btn cta-btn-header" onclick="sendMail()">Rappelez-moi</button>
+  </div>
+</div>
+    </section>
+    
+    <!-- Call-us Button -->
+    <a class="call-us" href="tel:5149661018"><ion-icon class="call-us-btn" name="call-outline"></ion-icon></a>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="copyright">
+        <p class="copyright-text">Copyright © 2023 Extermination 3-Lacs Tous Droits Réservés.</p>
+      </div>
+      <div class="copyright-name">
+        <p class="copyright-name-text">Website made by <a href="#">Jonathan Ethier</a></p>
+    </div>
+  </footer>
+  </body>
+</html>
