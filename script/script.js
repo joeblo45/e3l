@@ -43,26 +43,3 @@ function sendMail() {
     })
     .catch((err) => console.log(err));
 }
-// Contact form//
-
-// function sendMail() {
-//   var params = {
-//     name: document.getElementById("name").value,
-//     service: document.getElementById("service-needed").value,
-//     phone: document.getElementById("phone"),
-//   };
-
-//   const serviceID = "service_e3l";
-//   const templateID = "template_59aa1zn";
-
-//   emailjs
-//     .send(serviceID, templateID, params)
-//     .then((res) => {
-//       document.getElementById("name").value = "";
-//       document.getElementById("service-needed").value = "";
-//       document.getElementById("phone").value = "";
-//       console.log(res);
-//       alert("Demande envoyé avec succes!");
-//     })
-//     .catch((err) => console.log(err));
-// }
