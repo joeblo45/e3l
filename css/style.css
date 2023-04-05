@@ -35,7 +35,7 @@ body {
   left: 45%;
   right: 50%;
   top: 55%;
-  transform: translate(-50%, -50%);
+  transform: translate(-45%, -50%);
 }
 
 .header-container-inner {
