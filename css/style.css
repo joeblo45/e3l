@@ -18,48 +18,44 @@ body {
 
 /****** HEADER ******/
 .header {
-  height: 85vh;
-  /* width: 200vh; */
+  height: 100vh;
   position: relative;
-  background: #007f46;
-  background: linear-gradient(180deg, #007f46 50%, #33996b 100%);
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
       rgba(34, 34, 34, 0.6),
       rgba(34, 34, 34, 0.6)
     ),
-    url(/web/e3l/img/hero.jpg); */
+    url(/img/hero-2.jpg);
   background-size: cover;
   color: #e6e6e6;
 }
 
-.container-regions {
-  width: 110rem;
-  margin: 5rem 10rem 5rem 10rem;
-}
-
 .header-container {
-  width: 110rem;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 1200px;
+  position: absolute;
+  left: 45%;
+  right: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
 }
 
-.header-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 70rem;
-  height: auto;
+.header-container-inner {
+  width: 65%;
+}
+
+.header-logo {
+  /* width: 1200px; */
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 25%;
+  transform: translate(-80%, -80%);
 }
 
 .header-title {
-  font-size: 4rem;
-  /* margin-bottom: 1rem; */
-  margin-top: 7rem;
-  text-align: center;
-  text-transform: uppercase;
+  font-size: 4.2rem;
+  margin-bottom: 6rem;
+  margin-top: 15rem;
+  margin-left: 5rem;
 }
 
 .header-container p {
@@ -70,12 +66,9 @@ body {
 
 .header-btns {
   display: flex;
-  /* justify-content: start; */
-  gap: 18rem;
-  margin-top: 5rem;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  /* gap: 2rem; */
 }
-
 /* CTA-HEADER */
 .section-cta {
   padding: 9.6rem 0;
@@ -155,7 +148,8 @@ body {
   column-gap: 7rem;
   row-gap: 2.4rem;
   position: absolute;
-  top: 78%;
+  top: 85%;
+  left: 30%;
   box-shadow: 0px 0px 15px 0px #000000;
   font-size: 1.8rem;
   color: #333;

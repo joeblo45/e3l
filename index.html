@@ -59,67 +59,86 @@
 
 
   <body>
-    <header class="header">
+    <!-- <header class="header">
+      <div class="header-background">
       <div class="header-container">
           <h1 class="header-title">bienvenue chez</h1>
-          <img class="header-img" src="img/logos/Logo-Header.png">
+          <img class="header-img" src="img/logos/Logo WHITE 1725 x 492.png">
 
           <div class="header-btns">
             <a href="#gestion-parasitaire" class="btn">NOS SERVICES</a>
             <a href="#regions" class="btn-green">NOS REGIONS</a>
           </div>
-        
-          <!-- CTA-FORM -->
-          <div class="cta-form-box box-header">
-            <div class="form-group">
-              <label for="insect">J'ai un problème avec:</label>
-              <select id="insect" class="form-control" required>
-                <option value="fourmis">Fourmis</option>
-                <option value="araignee">Araignée</option>
-                <option value="guepe">Guêpe</option>
-                <option value="abeilles">Abeilles</option>
-                <option value="rongeurs">Rongeurs</option>
-                <option value="blattes">Blattes/Coquerelles</option>
-                <option value="vers-blanc">Vers Blanc</option>
-                <option value="perce-oreilles">Perce-Oreilles</option>
-                <option value="dermestre-du-lard">Dermestre-du-lard</option>
-                <option value="lepisme-argente">Lepisme Argenté</option>
-                <option value="acariens">Acariens</option>
-                <option value="punaises">Punaises de lit</option>
-                <option value="mouches">Mouches</option>
-                <option value="coléoptètres">Coléoptères</option>
-                <option value="others">Autre</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="phone">Téléphone:</label>
-              <input
-                id="phone"
-                type="tel"
-                placeholder="(514) 966-1018"
-                class="form-control"
-                required
-              />
-            </div>
-
-            <div class="form-group">
-              <label for="name">Nom Complet:</label>
-              <input
-                id="name"
-                type="text"
-                placeholder="Marc Tremblay"
-                class="form-control"
-                required
-              />
-            </div>
-
-            <button class="btn cta-btn-header" onclick="sendMail()">Rappelez-moi</button>
         </div>
+      </div>
+    </header> -->
+    <header class="header">
+      <div class="header-container">
+        <div class="header-container-inner">
+          <img src="/img/logos/Logo-Header (v4).png" class="header-logo">
+          <h1 class="header-title">Votre expert en gestion parasitaire</h1>
+          <!-- <p>
+           en gestion parasitaire
+          </p> -->
+
+          <div class="header-btns">
+            <a href="#" class="btn">NOS SERVICES</a>
+            <a href="#" class="btn-green">NOS REGIONS</a>
+          </div>
+        
         </div>
       </div>
     </header>
   <main>
+
+    <!-- CTA-FORM -->
+    <div class="cta-form-box box-header">
+      <div class="form-group">
+        <label for="insect">J'ai un problème avec:</label>
+        <select id="insect" class="form-control" required>
+          <option value="fourmis">Fourmis</option>
+          <option value="araignee">Araignée</option>
+          <option value="guepe">Guêpe</option>
+          <option value="abeilles">Abeilles</option>
+          <option value="rongeurs">Rongeurs</option>
+          <option value="blattes">Blattes/Coquerelles</option>
+          <option value="vers-blanc">Vers Blanc</option>
+          <option value="perce-oreilles">Perce-Oreilles</option>
+          <option value="dermestre-du-lard">Dermestre-du-lard</option>
+          <option value="lepisme-argente">Lepisme Argenté</option>
+          <option value="acariens">Acariens</option>
+          <option value="punaises">Punaises de lit</option>
+          <option value="mouches">Mouches</option>
+          <option value="coléoptètres">Coléoptères</option>
+          <option value="others">Autre</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Téléphone:</label>
+        <input
+          id="phone"
+          type="tel"
+          placeholder="(514) 966-1018"
+          class="form-control"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="name">Nom Complet:</label>
+        <input
+          id="name"
+          type="text"
+          placeholder="Marc Tremblay"
+          class="form-control"
+          required
+        />
+      </div>
+
+      <button class="btn cta-btn-header" onclick="sendMail()">Rappelez-moi</button>
+  </div>
+  </div>
 
     
     <section class="section-gestion-parasitaire" id="gestion-parasitaire">
