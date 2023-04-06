@@ -24,7 +24,7 @@ body {
       rgba(34, 34, 34, 0.6),
       rgba(34, 34, 34, 0.6)
     ),
-    url(img/hero-2.jpg);
+    url(./img/hero-2.jpg);
   background-size: cover;
   object-fit: cover;
   color: #e6e6e6;
