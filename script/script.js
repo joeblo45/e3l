@@ -1,3 +1,4 @@
+//Accordion
 document.addEventListener("DOMContentLoaded", () => {
   const accordionItems = document.querySelectorAll(".accordion-item");
 
@@ -9,6 +10,16 @@ document.addEventListener("DOMContentLoaded", () => {
     accordionHeader.addEventListener("click", () => {
       const isExpanded =
         accordionButton.getAttribute("aria-expanded") === "true";
+
+      accordionItems.forEach((otherItem) => {
+        const otherButton = otherItem.querySelector(".accordion-button");
+        const otherContent = otherItem.querySelector(".accordion-content");
+        if (otherButton !== accordionButton) {
+          otherButton.setAttribute("aria-expanded", false);
+          otherContent.classList.remove("accordion-content--expanded");
+          otherContent.setAttribute("aria-hidden", true);
+        }
+      });
 
       accordionButton.setAttribute("aria-expanded", !isExpanded);
       accordionContent.classList.toggle("accordion-content--expanded");
@@ -22,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+//CTA Forms
 function sendMail() {
   var params = {
     name: document.getElementById("name").value,

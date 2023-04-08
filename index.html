@@ -29,13 +29,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="script/script.js"></script>
-
-    <!-- <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous"
-  /> -->
     <script type="text/javascript"
     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
@@ -57,21 +50,26 @@
   <body>
     <header class="header">
       <div class="header-container">
-        <div class="header-container-inner">
-          <img src="img/logos/main-logo.png" class="header-logo">
-          <h1 class="header-title">Votre expert en gestion parasitaire</h1>
-
-          <div class="header-btns">
-            <a href="#gestion-parasitaire" class="btn">NOS SERVICES</a>
-            <a href="#regions" class="btn-green">NOS REGIONS</a>
-          </div>
-        
+        <div class="header-logo">
+          <img src="img/logos/logo-header.png" class="logo" alt="extermination 3-lacs logo">
+        </div>
+        <div class="header-title">
+          <p>
+            <a href="tel:5149661018">(514) 966-1018</a>
+          </p>
+        </div>
+         <div class="header-btns">
+          <a href="#gestion-parasitaire" class="btn">NOS SERVICES</a>
+          <a href="#regions" class="btn-green">NOS REGIONS</a>
         </div>
       </div>
     </header>
 
   <main>
-    <!-- CTA-FORM -->
+  
+    <section class="section-gestion-parasitaire" id="gestion-parasitaire">
+      
+        <!-- CTA-FORM-HEADER -->
     <div class="cta-form-box box-header">
       <div class="form-group">
         <label for="insect">J'ai un problème avec:</label>
@@ -115,14 +113,10 @@
           required
         />
       </div>
-
       <button class="btn cta-btn-header" onclick="sendMail()">Rappelez-moi</button>
   </div>
   </div>
-
-    
-    <section class="section-gestion-parasitaire" id="gestion-parasitaire">
-      <div class="container-gestion">
+  <div class="container-gestion">
       <h1 class="section-title">Nos Services</h1>
       <div class="separator">&nbsp;</div>
 
@@ -134,7 +128,7 @@
           <p class="description-2">Nos experts en gestion parasitaire écoresponsable s’engagent à répondre rapidement à vos besoins afin d’identifier l’étendue du problème et déterminer le plan le plus efficace pour vous débarrasser de ces parasites.</p>
         </div>
 
-
+<!-- LISTE D'INSECTES -->
         <div class="gestion-img-box">
           <img class="gestion-img" src="./img/gestion-parasitaire.jpg" alt="Gestion Parasitaire"> 
         </div>
@@ -227,6 +221,7 @@
         </div>
       </div>
   
+      <!-- RONGEURS -->
     <div class="rongeurs">
       <div class="rongeurs-box">
       <div class="rongeurs-img">
@@ -237,7 +232,7 @@
       </div>
       <div class="rongeurs-text">
         <p>Évidemment, une colonie de rongeurs sur votre propriété engendre de graves problèmes. Ils grugent tout sur leur passage : bois, isolant, fils électriques, etc. Par ailleurs, leurs excréments endommagent le système de ventilation. Les rongeurs sont donc particulièrement nuisibles, leurs activités pouvant entraîner des risques d’incendie, de la moisissure et des problèmes d’humidité, nuire à la structure du bâtiment, en plus de causer d’importants problèmes de santé.</p>
-        <br />
+       <br />
         <p>Les solutions proposées par les experts d’Extermination 3-Lacs vous débarrasseront de ces rongeurs et préviendront leur retour, en utilisant les bons produits adaptés et sécuritaires pour votre entourage.</p>
       </div> 
     </div> 
@@ -311,7 +306,7 @@
     <section class="section-features">
   <div class="container-features">
    <div class="features-box">
-
+<!-- LEFT SIDE -->
     <div class="features-icon">
       <div class="features-icons">
         <div class="features-icon-box">
@@ -350,9 +345,9 @@
     </div>
   </div>
   
-
+<!-- RIGHT SIDE -->
     <div class="features-img-block">
-      <img class="features-img" src="img/hero-2.jpg" alt="hero">
+      <img class="features-img" src="img/hero.jpg" alt="hero">
     </div>
    </div>
    <div class="services-icons">
@@ -361,6 +356,7 @@
        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
      </svg>
      
+     <!-- RESIDENTIEL, COMMERCIAL, INDUSTRIAL BOXES-->
      <div class="box-separator"> &nbsp;</div>
      <p class="box-title">Résidentiel</p>
    </div>  
@@ -388,7 +384,9 @@
       <h1 class="section-title-2">Nos  Regions</h1>
       <div class="separator">&nbsp;</div>
         <div class="regions">
-         
+
+
+         <!-- ACCORDION (LEFT) -->
         <div class="accordion">
             <div class="accordion-item">
               <div class="accordion-header">
@@ -465,7 +463,8 @@
               </div>
             </div>
           </div>  
-          <!-- <iframe frameborder=0 style='width:75rem;height:500px' src='//www.zeemaps.com/pub?group=4640316&add=1&x=-74.174576&y=45.487872&z=8'> </iframe> -->
+
+  <!-- MAP (RIGHT)-->
           <div class="regions-img-block">
           <img src="img/territories.png" alt="regions-img" alt="regions">
         </div>
@@ -479,11 +478,9 @@
       <h1 class="section-title-2">Témoignages</h1>
       <div class="separator">&nbsp;</div>
       
-        <!-- <div class="row"> -->
-          <div class="col-md-8 col-center m-auto">
-            
+      <!-- CAROUSEL -->
+          <div class="col-md-8 col-center m-auto">      
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <!-- Carousel -->
               <div class="carousel-inner">
                 <div class="item carousel-item active">
                   <blockquote class="testimonial-quote">
@@ -559,6 +556,7 @@
 
     <section class="section-cta-footer">
 <div class="container-footer">
+  <!-- CALL-US (LEFT) -->
   <div class="appelez-nous">
     <h2 class="appelez-nous-title">Combien ça va me couter?</h2>
     <p class="appelez-nous-text">Parce que chaque cas est particulier, il est préférable de communiquer avec nous pour une soumission adapté à vos besoins, soit par téléphone ou par internet directement.</p>
@@ -566,50 +564,7 @@
   <p class="phone-number">(514) 966-1018</p>
   </div>
 
-     <!-- <form class="cta-form form-footer" action="#">
-      <div>
-        <label for="select-where">J'ai un problème avec:</label>
-        <select id="select-where" required>
-          <option value="fourmis">Fourmis</option>
-          <option value="araignee">Araignée</option>
-          <option value="guepe">Guêpe</option>
-          <option value="abeilles">Abeilles</option>
-          <option value="rongeurs">Rongeurs</option>
-          <option value="blattes">Blattes/Coquerelles</option>
-          <option value="vers-blanc">Vers Blanc</option>
-          <option value="perce-oreilles">Perce-Oreilles</option>
-          <option value="dermestre-du-lard">Dermestre-du-lard</option>
-          <option value="lepisme-argente">Lepisme Argenté</option>
-          <option value="acariens">Acariens</option>
-          <option value="punaises">Punaises de lit</option>
-          <option value="mouches">Mouches</option>
-          <option value="coléoptètres">Coléoptères</option>
-          <option value="others">Autre</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="phone">Téléphone:</label>
-        <input
-          id="phone"
-          type="tel"
-          placeholder="(514) 966-1018"
-          required
-        />
-      </div>
-
-      <div>
-        <label for="full-name">Nom Complet:</label>
-        <input
-          id="full-name"
-          type="text"
-          placeholder="Marc Tremblay"
-          required
-        />
-      </div>
-
-      <button class="btn">Rappelez-moi</button>
-    </form> -->
+  <!-- CTA-FORM-FOOTER (RIGHT)-->
     <div class="cta-form-box box-footer">
     <div class="form-group">
       <label for="insect">J'ai un problème avec:</label>
@@ -659,7 +614,7 @@
 </div>
     </section>
     
-    <!-- Call-us Button -->
+    <!-- CALL-US BUTTON -->
     <a class="call-us" href="tel:5149661018"><ion-icon class="call-us-btn" name="call-outline"></ion-icon></a>
   </main>
   <footer>
