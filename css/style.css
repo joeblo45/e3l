@@ -35,6 +35,7 @@ body {
   height: 85vh;
   background-color: #087f5b;
   min-width: 150rem;
+  /* max-width: 120rem; */
 }
 
 .header-container {
@@ -75,7 +76,7 @@ body {
   width: 70rem;
   margin: 0 auto;
   align-items: center;
-  margin-top: -20rem;
+  margin-top: -25rem;
 }
 
 .box-header {
@@ -322,7 +323,7 @@ svg {
 }
 
 .container-faune {
-  width: 110rem;
+  max-width: 110rem;
   margin: 0 auto;
 }
 
@@ -401,7 +402,7 @@ svg {
 }
 
 .container-features {
-  width: 110rem;
+  max-width: 110rem;
   margin: 0 auto;
 }
 
@@ -530,7 +531,7 @@ svg {
 }
 
 .container-regions {
-  width: 110rem;
+  max-width: 110rem;
   margin: 0 auto;
 }
 
@@ -654,7 +655,7 @@ svg {
 }
 
 .testimonials-container {
-  width: 110rem;
+  max-width: 110rem;
   margin: 0 auto;
 }
 
@@ -775,15 +776,17 @@ svg {
 .section-cta-footer {
   padding-top: 10rem;
   min-width: 150rem;
+  background-color: #990000;
 }
 
 .container-footer {
-  background-color: #990000;
-  height: 45rem;
+  height: 35rem;
   display: flex;
-  width: 100%;
+  align-items: center;
+  gap: 10rem;
+  max-width: 135rem;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .appelez-nous {
@@ -837,11 +840,12 @@ svg {
   border: none;
   border-radius: 9px;
   margin: 5rem auto;
+  position: relative;
 }
 
 /****** FOOTER ******/
 .footer {
-  width: 100%;
+  max-width: 110rem;
   height: 5rem;
   background-color: #353535;
   display: flex;
