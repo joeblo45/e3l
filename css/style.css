@@ -34,6 +34,7 @@ body {
 .header {
   height: 85vh;
   background-color: #087f5b;
+  min-width: 150rem;
 }
 
 .header-container {
@@ -314,6 +315,7 @@ svg {
   background-color: #007f46;
   padding: 10rem;
   color: #e6e6e6;
+  min-width: 150rem;
 }
 
 .container-faune {
