@@ -126,7 +126,7 @@ body {
 /****** GESTION PARASITAIRE ******/
 .section-gestion-parasitaire {
   /* padding-top: 5rem; */
-  padding: 10rem;
+  padding: 5rem 10rem 0 10rem;
   /* color: #e6e6e6; */
   min-width: 150rem;
 }
