@@ -40,17 +40,20 @@ body {
 
 .header-container {
   width: 120rem;
+}
+
+.header-block {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   align-items: center;
-  padding-top: -25rem;
+  padding-top: 8rem;
   width: 75rem;
 }
 
 .logo {
   width: 65rem;
-  padding-bottom: 1rem;
+  /* padding-bottom: -2rem; */
 }
 
 .header-title {
@@ -67,6 +70,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 10rem;
+  /* margin-top: ; */
 }
 
 /* CTA-HEADER */
@@ -525,7 +529,7 @@ svg {
 /****** REGIONS ******/
 .section-regions {
   /* padding-top: 10rem; */
-  padding: 10rem;
+  padding: 0 10rem 10rem 10rem;
   /* color: #e6e6e6; */
   min-width: 150rem;
 }
@@ -650,7 +654,7 @@ svg {
 /****** TESTIMONIALS ******/
 .section-testimonials {
   /* padding-top: 5rem; */
-  padding: 10rem;
+  padding: 0 10rem 10rem 10rem;
   min-width: 150rem;
 }
 
