@@ -53,7 +53,7 @@ body {
 }
 
 .header-title {
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 .header-title a {
@@ -120,7 +120,10 @@ body {
 
 /****** GESTION PARASITAIRE ******/
 .section-gestion-parasitaire {
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
+  padding: 10rem;
+  /* color: #e6e6e6; */
+  min-width: 150rem;
 }
 
 .container-gestion {
@@ -390,51 +393,11 @@ svg {
   margin-top: 7rem;
 }
 
-/****** REGIONS ******/
-.section-regions {
-  padding-top: 10rem;
-}
-
-.container-regions {
-  width: 110rem;
-  margin: 0 auto;
-}
-
-.regions {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  justify-content: space-between;
-  column-gap: 10rem;
-  margin: 5rem 3rem 3rem 3rem;
-}
-
-.accordion-box {
-  width: 700px;
-  margin: 100px auto;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.section-title-2 {
-  font-size: 5.2rem;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.25;
-}
-
-.regions-img-block {
-  margin-right: 30rem;
-}
-
-.regions-img-block img {
-  width: 75rem;
-}
-
 /****** FEATURES ******/
 .section-features {
-  margin-top: 7rem;
+  /* margin-top: 7rem; */
+  padding: 10rem;
+  min-width: 150rem;
 }
 
 .container-features {
@@ -557,6 +520,51 @@ svg {
 .map {
   width: 75rem;
 }
+
+/****** REGIONS ******/
+.section-regions {
+  /* padding-top: 10rem; */
+  padding: 10rem;
+  /* color: #e6e6e6; */
+  min-width: 150rem;
+}
+
+.container-regions {
+  width: 110rem;
+  margin: 0 auto;
+}
+
+.regions {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: space-between;
+  column-gap: 10rem;
+  margin: 5rem 0 0 -5rem;
+}
+
+.accordion-box {
+  width: 700px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section-title-2 {
+  font-size: 5.2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.25;
+}
+
+.regions-img-block {
+  margin-right: 30rem;
+}
+
+.regions-img-block img {
+  width: 75rem;
+}
 /* ACCORDION */
 .accordion {
   max-width: 30rem;
@@ -640,7 +648,9 @@ svg {
 
 /****** TESTIMONIALS ******/
 .section-testimonials {
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
+  padding: 10rem;
+  min-width: 150rem;
 }
 
 .testimonials-container {
@@ -764,6 +774,7 @@ svg {
 /****** CTA-FOOTER ******/
 .section-cta-footer {
   padding-top: 10rem;
+  min-width: 150rem;
 }
 
 .container-footer {
@@ -828,10 +839,6 @@ svg {
   margin: 5rem auto;
 }
 
-.form-footer {
-  /* padding-top: 2rem; */
-}
-
 /****** FOOTER ******/
 .footer {
   width: 100%;
@@ -842,6 +849,7 @@ svg {
   align-items: center;
   gap: 40rem;
   padding: 1.2rem;
+  min-width: 150rem;
 }
 
 .copyright {
