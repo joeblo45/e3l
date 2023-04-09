@@ -790,6 +790,7 @@ svg {
   gap: 10rem;
   max-width: 135rem;
   margin: 0 auto;
+  padding-bottom: 10rem;
   justify-content: space-evenly;
 }
 
