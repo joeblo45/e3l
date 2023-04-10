@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
           otherContent.setAttribute("aria-hidden", true);
         }
       });
-
       accordionButton.setAttribute("aria-expanded", !isExpanded);
       accordionContent.classList.toggle("accordion-content--expanded");
 

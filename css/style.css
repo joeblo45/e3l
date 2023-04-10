@@ -850,7 +850,7 @@ svg {
 
 /****** FOOTER ******/
 .footer {
-  max-width: 110rem;
+  /* max-width: 110rem; */
   height: 5rem;
   background-color: #353535;
   display: flex;

@@ -12,9 +12,9 @@
 /**************************/
 
 @media (max-width: 75em) {
-  html {
+  /*html {
     /* 9px / 16px  */
-    font-size: 56.25%;
+    /* font-size: 56.25%; */
   }
 
   /* .grid {
@@ -52,9 +52,9 @@
 /**************************/
 
 @media (max-width: 59em) {
-  html {
+  /* html {
     /* 8px / 16px = 0.5 = 50% */
-    font-size: 50%;
+    /* font-size: 50%;
   }
 
   .hero {
@@ -99,7 +99,7 @@
 
   .cta {
     /* 3/5 = 60% + 2/5 = 40% */
-    grid-template-columns: 3fr 2fr;
+    /* grid-template-columns: 3fr 2fr;
   }
 
   .cta-form {
@@ -108,10 +108,10 @@
 
   .btn--form {
     margin-top: 1.2rem;
-  }
+  } */
 
   /* MOBILE NAVIGATION */
-  .btn-mobile-nav {
+  /* .btn-mobile-nav {
     display: block;
     z-index: 9999;
   }
@@ -130,23 +130,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in; */ */
 
     /* Hide navigation */
     /* Allows NO transitions at all */
     /* display: none; */
 
     /* 1) Hide it visually */
-    opacity: 0;
+    /* opacity: 0; */
 
     /* 2) Make it unaccessible to mouse and keyboard */
-    pointer-events: none;
+    /* pointer-events: none; */
 
     /* 3) Hide it from screen readers */
-    visibility: hidden;
+    /* visibility: hidden; */
   }
 
-  .nav-open .main-nav {
+  /* .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
@@ -170,13 +170,13 @@
   .main-nav-link:visited {
     font-size: 3rem;
   }
-}
+} */
 
 /**************************/
 /* BELOW 704px (Smaller tablets) */
 /**************************/
 
-@media (max-width: 44em) {
+/* @media (max-width: 44em) {
   .grid--3-cols,
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
@@ -209,13 +209,13 @@
     grid-column: span 2;
     margin-bottom: 3.2rem;
   }
-}
+} */
 
 /**************************/
 /* BELOW 544px (Phones) */
 /**************************/
 
-@media (max-width: 34em) {
+/* @media (max-width: 34em) {
   .grid {
     row-gap: 4.8rem;
   }
@@ -281,7 +281,7 @@
     height: 32rem;
     grid-row: 1;
   }
-}
+} */
 
 /* 
 - Font sizes (px)
