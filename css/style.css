@@ -47,7 +47,7 @@ body {
   flex-direction: column;
   margin: 0 auto;
   align-items: center;
-  padding-top: 8rem;
+  padding-top: 10vh;
   width: 75rem;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .header-title {
-  padding-bottom: 5rem;
+  padding-bottom: 2.5rem;
 }
 
 .header-title a {
@@ -787,7 +787,7 @@ svg {
   height: 35rem;
   display: flex;
   align-items: center;
-  gap: 10rem;
+  gap: 20rem;
   max-width: 135rem;
   margin: 0 auto;
   padding-bottom: 10rem;
