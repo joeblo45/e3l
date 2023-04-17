@@ -33,11 +33,42 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //CTA Forms
+// function sendMail() {
+//   var params = {
+//     name: document.getElementById("name").value,
+//     phone: document.getElementById("phone").value,
+//     insect: document.getElementById("insect").value,
+//   };
+
+//   const serviceID = "service_e3l";
+//   const templateID = "template_f2l42zh";
+
+//   emailjs
+//     .send(serviceID, templateID, params)
+//     .then((res) => {
+//       document.getElementById("name").value = "";
+//       document.getElementById("phone").value = "";
+//       document.getElementById("insect").value = "";
+//       console.log(res);
+//       alert("Votre demande a été envoyé avec succes!");
+//     })
+//     .catch((err) => console.log(err));
+// }
+
 function sendMail() {
+  var name = document.getElementById("name").value;
+  var phone = document.getElementById("phone").value;
+  var insect = document.getElementById("insect").value;
+
+  if (name == "" || phone == "" || insect == "") {
+    alert("ERREUR: Veuillez remplir les champs requis");
+    return false;
+  }
+
   var params = {
-    name: document.getElementById("name").value,
-    phone: document.getElementById("phone").value,
-    insect: document.getElementById("insect").value,
+    name: name,
+    phone: phone,
+    insect: insect,
   };
 
   const serviceID = "service_e3l";
