@@ -310,12 +310,12 @@
 /* 426 - 768 (TABLETS) */
 @media (max-width: 48em) and (min-width: 26.625em) {
   .col-center {
-    width: 50rem;
+    width: 60rem;
   }
 
   html {
     font-size: 50%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 }
 
@@ -325,26 +325,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-
-  body {
-    font-family: "Archivo", sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    color: #333;
-    background-color: #e6e6e6;
-    /* Only works if there is nothing absolutely positioned in relation to body */
-    overflow-x: hidden;
-  }
-
-  .container {
-    max-width: 110rem;
-    margin: 0 auto;
-  }
-
-  .container-small {
-    max-width: 110rem;
-    margin: 0 auto;
   }
 
   /***** HERO SECTION *****/
