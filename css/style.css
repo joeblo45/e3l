@@ -484,7 +484,7 @@ svg {
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-content: space-between;
-  column-gap: 5rem;
+  /* column-gap: 5rem; */
   /* margin: 5rem 0 0 -5rem; */
   /* border: 1px solid #cc0000; */
   margin-top: 5rem;
