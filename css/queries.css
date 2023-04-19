@@ -324,6 +324,65 @@
     font-size: 50%;
   }
 
+  .copyright-name {
+    display: none;
+  }
+
+  .accordion {
+    margin-right: 8rem;
+  }
+
+  .cta-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 50rem;
+  }
+
+  .cta-form-box-footer {
+    padding: 3rem;
+    width: 65rem;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .box-footer {
+    background-color: #333;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 7rem;
+    row-gap: 2.4rem;
+    box-shadow: 0px 0px 15px 0px #000000;
+    font-size: 1.8rem;
+    color: #333;
+    border: none;
+    border-radius: 9px;
+    padding-left: 5rem;
+  }
+
+  .box-footer label {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    color: #f6f6f6;
+  }
+
+  .box-footer input,
+  select {
+    width: 25rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rbga(0, 0, 0, 0.1);
+  }
+
+  .cta-btn-header {
+    width: 25rem;
+    height: 10rem;
+  }
+
   /***** HERO SECTION *****/
   .section-hero {
     /* background-color: #363636; */
@@ -465,7 +524,7 @@
 
   .gestion-img-box {
     grid-column: 1 / 2;
-    padding-right: 3rem;
+    padding-right: 10rem;
   }
 
   .gestion-img {
@@ -483,6 +542,7 @@
     margin-top: -15rem;
     margin-bottom: 5rem;
     row-gap: 3rem;
+    padding-right: 3rem;
   }
 
   .icon-gestion {
@@ -609,10 +669,13 @@
     margin-top: 5rem;
   }
 
+  .regions-img-block {
+    padding-left: 0;
+  }
+
   .regions-img-block img {
     width: 100%;
     /* border-radius: 2rem; */
-    padding-right: 3rem;
   }
 
   .accordion {
@@ -661,7 +724,7 @@
 /* 414 (SMALL PHONES */
 @media (max-width: 25.875em) {
   .gestion-icons {
-    padding-right: 3rem;
+    padding-right: 8rem;
   }
 }
 
