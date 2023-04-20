@@ -157,12 +157,16 @@ select {
 
 .gestion-text {
   width: 50rem;
-  padding-left: 5rem;
+  /* padding-left: 5rem; */
+  /* margin-right: -15rem; */
+  /* padding: ; */
 }
 
 .gestion-text p {
   font-size: 2rem;
   line-height: 1.5;
+  padding: 0 5rem;
+  margin-left: -5rem;
 }
 
 .gestion-img-box {
@@ -174,7 +178,7 @@ select {
   overflow: hidden;
   border-radius: 2rem;
   transition: all 0.4s;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .gestion-img:hover {
@@ -543,7 +547,7 @@ svg {
 
 .accordion-content {
   max-height: 0;
-  overflow: hidden;
+  overflow: scroll;
   padding: 2rem 3rem 2rem 5rem;
   background-color: #fff;
   font-size: 1.8rem;
@@ -633,7 +637,7 @@ svg {
 
 .carousel .overview b {
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: #007f46;
 }
 
@@ -675,6 +679,9 @@ svg {
 .carousel-indicators li.active {
   background: #555;
   box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-quote {
 }
 
 .person-icon {
