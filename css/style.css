@@ -17,7 +17,6 @@ body {
   font-weight: 400;
   color: #333;
   background-color: #e6e6e6;
-  /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
 
@@ -34,7 +33,6 @@ body {
 
 /***** HERO SECTION *****/
 .section-hero {
-  /* background-color: #363636; */
   background: rgb(54, 54, 54);
   background: linear-gradient(
     180deg,
@@ -55,7 +53,6 @@ body {
 
 .hero-logo {
   margin: 0 auto;
-  /* padding-left: 13rem; */
 }
 
 .logo {
@@ -134,14 +131,10 @@ select {
 }
 
 /***** GESTION SECTION *****/
-.section-gestion {
-}
-
 .gestion {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  /* column-gap: 10rem; */
   row-gap: 2rem;
   margin-top: 7rem;
 }
@@ -157,9 +150,6 @@ select {
 
 .gestion-text {
   width: 50rem;
-  /* padding-left: 5rem; */
-  /* margin-right: -15rem; */
-  /* padding: ; */
 }
 
 .gestion-text p {
@@ -169,16 +159,12 @@ select {
   margin-left: -5rem;
 }
 
-.gestion-img-box {
-}
-
 .gestion-img {
   width: 110%;
   box-shadow: 0px 0px 15px 0px #000000;
   overflow: hidden;
   border-radius: 2rem;
   transition: all 0.4s;
-  /* margin-top: 2rem; */
 }
 
 .gestion-img:hover {
@@ -245,7 +231,6 @@ select {
 .rongeurs-text {
   font-size: 2rem;
   line-height: 1.6;
-  /* padding-top: -2rem; */
 }
 
 .rongeurs-icons {
@@ -313,11 +298,9 @@ svg {
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
-  /* text-align: center; */
 }
 
 .faune-img-main {
-  /* padding-top: 8rem; */
   transition: all 0.4s;
 }
 
@@ -420,8 +403,6 @@ svg {
   overflow: hidden;
   transition: all 0.4s;
   border-radius: 2rem;
-  /* margin-bottom: 10rem;
-  margin-right: 20rem; */
 }
 
 .features-img:hover {
@@ -466,7 +447,7 @@ svg {
   font-size: 3.8rem;
   transition: all 0.4s;
   background-color: #353535;
-  border-radius: 4rem;
+  border-radius: 2rem;
   padding: 2rem;
   box-shadow: 0px 0px 15px 0px #000000;
 }
@@ -488,20 +469,12 @@ svg {
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-content: space-between;
-  /* column-gap: 5rem; */
-  /* margin: 5rem 0 0 -5rem; */
-  /* border: 1px solid #cc0000; */
   margin-top: 5rem;
-}
-
-.regions-img-block {
-  /* margin-right: 5rem; */
 }
 
 .regions-img-block img {
   width: 100%;
   box-shadow: 0px 0px 15px 0px #000000;
-  /* border-radius: 2rem; */
 }
 
 .accordion {
@@ -523,7 +496,7 @@ svg {
   height: 7rem;
   border-top: 3px solid #990000;
   color: #fff;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   width: 30rem;
 }
 
@@ -601,7 +574,6 @@ svg {
   font-size: 1.8rem;
   text-align: center;
   overflow: hidden;
-  /* min-height: 290px;*/
   margin-top: 2rem;
 }
 
@@ -610,9 +582,6 @@ svg {
   height: 135px;
   margin: 0 auto;
   padding: 5px;
-}
-
-.img-box {
 }
 
 .carousel .img-box img {
@@ -681,9 +650,6 @@ svg {
   box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.testimonial-quote {
-}
-
 .person-icon {
   height: 10rem;
   width: 10rem;
@@ -711,7 +677,6 @@ svg {
 /***** CTA-FOOTER SECTION *****/
 .section-cta-footer {
   margin-top: 5rem;
-  /* height: 40rem; */
   background-color: #990000;
 }
 
@@ -731,7 +696,6 @@ svg {
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
-  /* position: relative; */
   box-shadow: 0px 0px 15px 0px #000000;
 }
 
@@ -741,7 +705,7 @@ svg {
 }
 
 .appelez-nous-title {
-  font-size: 3rem;
+  font-size: 2.8rem;
   margin: 3rem auto 0 auto;
   color: #fff;
   text-transform: uppercase;
@@ -752,7 +716,7 @@ svg {
   padding: 3rem;
   line-height: 1.5;
   color: #e6e6e6;
-  padding: 3rem 3rem 1rem 3rem;
+  padding: 3rem 6rem 1rem 6rem;
 }
 
 .phone-number {
@@ -815,7 +779,6 @@ select {
   align-items: center;
   gap: 40rem;
   padding: 1.2rem;
-  /* max-width: 135rem; */
 }
 
 .copyright {
@@ -848,6 +811,7 @@ select {
   text-transform: uppercase;
   font-size: 1rem;
 }
+
 /* ***** GENERAL ****** */
 .btn,
 .btn:link,
@@ -864,13 +828,11 @@ select {
   font-family: inherit;
   transition: all 0.3s;
   color: #fff;
-  /* border: 1px solid #e6e6e6; */
 }
 
 .btn:hover,
 .btn:active {
   background-color: #a31a1a;
-  /* border: 1px solid #e6e6e6; */
   color: #fff;
 }
 
@@ -884,7 +846,6 @@ select {
   font-weight: 600;
   text-decoration: none;
   border-radius: 9.6px;
-  /* border: 1px solid #e6e6e6; */
   cursor: pointer;
   transition: all 0.3s;
   color: #fff;
@@ -893,7 +854,6 @@ select {
 .btn-green:hover,
 .btn-green:active {
   background-color: #005931;
-  /* border: 1px solid #e6e6e6; */
 }
 
 .section-title {
